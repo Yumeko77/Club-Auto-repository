@@ -1,0 +1,94 @@
+.form-container {
+  margin: 50px auto; /* La marge verticale est de 20px, la marge horizontale est "auto" */
+  background-size: cover;
+  background-color: beige;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('../../public/images/vehicule3.jpg');
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type='text'],
+.form-group input[type='email'],
+.form-group input[type='tel'],
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type='submit'] {
+  background-color: #6c98e1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter-block {
+  color: #eceff3;
+  padding: 20px; /* Ajoutez une marge intérieure pour l'espace autour du contenu */
+  text-align: center; /* Pour centrer le contenu horizontalement */
+}
+
+.newsletter-block p {
+  font-size: 16px;
+  color: #eceff3;
+}
+
+.subscribe-input {
+  width: 100%; /* Pour qu'il prenne toute la largeur du contenant */
+  height: 40px; /* Ajustez la hauteur de la case input selon vos préférences */
+  padding: 15px; /* Ajustez la marge intérieure selon vos préférences */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.subscribe-button {
+  background-color: #cc6119;
+  color: #eceff3;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: center;
+}
+
+@media only screen and (max-width: 880px) {
+  .form-container .newsletter-block {
+    padding: 10px;
+  }
+
+  .form-container .newsletter-block p {
+    font-size: 14px;
+  }
+
+  .form-container .subscribe-input {
+    height: 40px;
+  }
+
+  .form-container .subscribe-button {
+    margin-top: 10px;
+    align-self: center;
+  }
+}

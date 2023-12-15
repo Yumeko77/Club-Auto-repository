@@ -1,0 +1,129 @@
+.newsletter-block {
+  color: #eceff3;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter-block h3 {
+  font-size: 14px;
+  color: #eceff3;
+  display: block;
+}
+
+.subscribe-input {
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+}
+
+.subscribe-button {
+  background-color: #cc6119;
+  color: #eceff3;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.social-icon.facebook .bi-facebook,
+.social-icon.twitter .bi-twitter,
+.social-icon.instagram .bi-instagram,
+.social-icon.google .bi-google,
+.social-icon.youtube .bi-youtube {
+  color: #eceff3;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right .social-icons {
+  margin: 10px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-right .social-icons .social-icon {
+  display: inline-block;
+}
+
+.footer-right .social-icons .social-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-end {
+  background-color: #232628;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer-end h3 {
+  font-size: 14px;
+  color: #eceff3;
+}
+
+.company-name {
+  font-size: 14px;
+  color: #6c98e1;
+}
+
+.copyright {
+  color: #eceff3;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-wrapper {
+  background-color: #232628;
+}
+
+@media (min-width: 880px) {
+  .footer-end {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 880px) {
+  .footer-end .company-info,
+  .footer-end .opening-hours,
+  .footer-end .newsletter-block {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
+
+.footer-end p {
+  font-size: 11px;
+  color: #eceff3;
+  text-transform: none;
+}
+
+.copyright-container {
+  margin-top: 60px;
+  font-weight: normal;
+}
+
+.company {
+  color: #6c98e1;
+  font-size: 14px;
+}
+
+@media (min-width: 880px) {
+  .footer-end,
+  .newsletter-block,
+  .footer-right {
+    width: 100%;
+    text-align: center;
+  }
+}

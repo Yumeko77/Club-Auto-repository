@@ -1,0 +1,112 @@
+
+.header-container{
+display: flex;
+align-items: center;
+}
+
+
+.topbar {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--senary-color);
+  padding: 12px 10px;
+  display: flex; /* Ajoutez cette ligne pour utiliser flexbox */
+  align-items: center; /* Pour centrer verticalement les éléments */
+}
+
+.topbar img {
+  max-width: 30px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+/* Ajoutez un conteneur pour les éléments de texte et appliquez flexbox */
+.topbar-text {
+  display: flex;
+  flex-direction: column; /* Alignez les éléments de texte verticalement */
+  margin-right: 10px; /* Ajoutez de la marge entre l'image et le texte si nécessaire */
+  margin-top: 15rem;
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.location {
+  color: #cc6119;
+  font-size: 14px; /* Ajustez la taille du texte */
+}
+
+.maps {
+  color: #eceff3;
+  text-transform: uppercase;
+  font-size: 14px; /* Ajustez la taille du texte */
+  font-weight: normal;
+}
+
+.phone a {
+  font-family: 'Montserrat' sans-serif;
+  color: #eceff3;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.address,
+.phone,
+.opentime,
+.bi-facebook,
+.bi-twitter {
+  padding: 10px;
+  font-size: 14px; 
+  color: #eceff3;
+}
+
+.opentime {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 14px; 
+}
+
+.opentime h4,
+.opentime p{
+  margin: 0;
+}
+
+.days,
+.hours {
+  color: #cc6119;
+  font-size: 14px;
+}
+
+.club,
+.auto {
+  text-transform: uppercase; 
+  font-size: 14px;
+}
+
+.menu-toggle{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .topbar {
+     flex-direction: column;
+  }
+ 
+  .topbar-text {
+     margin-right: 0;
+
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+
+ }
+
+
+
+ }

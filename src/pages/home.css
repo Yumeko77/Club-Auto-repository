@@ -1,0 +1,440 @@
+.club {
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.auto {
+  color: var(--quaternary-color);
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-size: 20px;
+}
+
+.header-container {
+  background-color: #232628;
+  text-align: center;
+}
+
+.header-container h3 {
+  margin-left: 30px;
+}
+
+.bold-text {
+  text-transform: uppercase;
+  color: #232628;
+  text-align: center;
+}
+
+.orange-text {
+  text-transform: uppercase;
+  color: #cc6119;
+  text-align: center;
+}
+
+.white-title {
+  text-transform: uppercase;
+  color: #eceff3;
+  text-align: center;
+  font-size: 22px;
+}
+
+.orange-title {
+  text-transform: uppercase;
+  color: #cc6119;
+  text-align: center;
+  font-size: 22px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card1 {
+  width: 45%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card1 p {
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.card2 {
+  width: 45%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card2 p {
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.car-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.car-container img {
+  max-width: 50%;
+  margin: 0 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.list-car {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #232628;
+  color: #eceff3;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 2;
+  text-align: center;
+}
+
+.welcome {
+  text-transform: uppercase;
+  color: #232628;
+  margin-bottom: 20px;
+}
+
+.clubauto {
+  text-transform: uppercase;
+  color: #cc6119;
+  margin-bottom: 20px;
+}
+
+.image3 img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.image3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cadre1,
+.cadre2 {
+  font-size: 16px;
+  border: 1px solid;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 4px;
+  width: 70%;
+}
+
+.cadre1 {
+  border-color: #fab637;
+  background-color: #fab637;
+}
+
+.cadre2 {
+  border-color: #ff4848;
+  background-color: #ff4848;
+}
+
+.car-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.car-container img {
+  max-width: 80%;
+  margin: 0 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.car {
+  color: #eceff3;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.prix {
+  font-size: 16px;
+  font-weight: bold;
+  color: #cc6119;
+  text-align: center;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.footer {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #232628;
+  color: #eceff3;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 2;
+}
+
+h5.centered-text {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #232628;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-items p {
+  text-align: center;
+  justify-content: center;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.icons-container > div {
+  text-align: center;
+  margin: 10px;
+}
+
+.icons-container .icon img {
+  max-width: 30px;
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.icons-container p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.finance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.customers .team .service {
+  margin-top: 10px;
+}
+
+.finance .team .customers .service h6 {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #6c98e1;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+}
+
+.image-end img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.background-image {
+  width: 100%;
+  background-size: cover;
+  background-image: url('../../public/images/vehicule1.jpg');
+  padding-bottom: 30rem;
+}
+
+@media only screen and (max-width: 880px) {
+  .white-title,
+  .orange-title {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .body-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .card1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card1 p {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  .card2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card2 p {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  .car-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .car-container img {
+    max-width: 80%;
+    margin: 0 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .car {
+    color: #eceff3;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center; /* Centrer le texte à l'intérieur de .car */
+  }
+
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #cc6119;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .footer {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  h5.centered-text {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .footer-items p {
+    margin-top: 10px;
+  }
+
+  .icons-container {
+    flex-direction: column;
+  }
+
+  .icons-container > div {
+    margin: 10px 0;
+  }
+
+  .icons-container .icon img {
+    max-width: 20px;
+    margin-bottom: 5px;
+  }
+
+  .icons-container p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .finance {
+    margin-top: 15px;
+  }
+
+  button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image3 img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .image-end img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
